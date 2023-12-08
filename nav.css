@@ -1,0 +1,205 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav div{
+    background-color:rgb(46, 43, 43);
+    height:70px;
+}
+img{
+    height: 36px;
+    font-weight:300;
+    margin-top:19px;
+    margin-left:30px;
+}
+.icon{
+    height:25px;
+    height:25px;
+    fill: white;
+    margin-left: 20px;
+}
+.icon1{
+    height:25px;
+    height:25px;
+    fill: white;
+    margin-left: 20px;
+}
+h1{
+    margin: 0%;
+    padding: 0%;
+    margin-left:1100px; 
+    margin-top:-40px;
+    font-size:19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+a{
+    display: inline;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+span{
+    height:10px;
+    width:10px;
+    background-color: green;
+    border-radius:50%;
+    display: inline-block;
+}
+.animated-background{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    background-color:#464646;
+}
+h2{
+    color: white;
+    font-size:48px;
+    /* border: 2px solid blue; */
+    margin-left:260px;
+    margin-top:80px;
+    letter-spacing:3px;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3{
+    color: white;
+    font-size:24px;
+    /* border: 2px solid blue; */
+    margin-left:260px;
+    letter-spacing:2px;
+    font-weight:300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+input{
+    margin-left:255px;
+    width:1000px;
+    height:50px;
+    border:2px solid whitesmoke;
+    margin-top: 10px;
+    padding-left:15px;
+    fill: #454647;
+    border-radius:10px;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+i{
+    /* border: 2px solid red; */
+    height: 25px;
+    width: 25px;
+    margin-right:300px;
+    position: absolute;
+    top:483px;
+    font-size:30px;
+    right:0.1px;
+    color: #464646;
+}
+aside{
+    border: 2px solid #d9643a;
+    height:50px;
+    background-color:#d9643a;
+    position: absolute;
+    top:700px;
+    width: 100%;
+}
+aside div>p{
+    margin: auto;
+    margin-top:15px;
+    font-size:20px;
+    font-weight: normal;
+    border:4px solid black;
+    width:160px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    margin-right:1500px;
+}
+small{
+    margin-left:180px;
+    position: absolute;
+    top:15px;
+    font-size:20px;
+    font-weight: normal;
+}
+footer{
+    /* border: 2px solid #454647; */
+    height: 300px;
+    background-color:#272829;
+    position: absolute; 
+    height:300px;
+    width: 100%;
+    top:750px;
+}
+.image{
+    height:100px;
+    width:400px;
+    font-size:50px;
+    margin:0%;
+    margin-top: 20px;
+    position: absolute;
+    right:1250px;
+}
+b{
+    color: white;
+    padding-left:30px;
+    padding-top:50px;
+    font-size:20px;
+    font-weight: normal;
+    /* border: 2px solid gray;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;*/
+} 
+.icon2{
+    height:25px;
+    width: 25px;
+    fill: white;
+    position: absolute;
+    top:78px;
+    left:160px;
+}
+.icon3{
+    height:25px;
+    width: 25px;
+    fill: white;
+    position: absolute;
+    top:78px;
+    left:200px;
+}
+footer #content #about{
+    /* border:2px solid red; */
+    width: 20%;
+    height:150px;
+    line-height: 30px;
+    font-size: 17px;
+    position: absolute;
+    top:50px;
+    left: 300px;
+}
+footer #content #libraries{
+    /* border:2px solid red; */
+    width: 20%;
+    height:150px;
+    line-height: 30px;
+    font-size: 17px;
+    position: absolute;
+    top:50px;
+    left:600px;
+}
+footer #content #sponsers{
+    /* border:2px solid red; */
+    width: 20%;
+    height:150px;
+    line-height: 30px;
+    font-size: 17px;
+    position: absolute;
+    top:50px;
+    left:900px;
+}
